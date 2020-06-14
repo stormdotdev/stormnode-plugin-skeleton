@@ -1,0 +1,17 @@
+{
+  "name": "stormnode-plugin-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton for a storm.dev node plugin",
+  "main": "src/index.js",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "keywords": [
+    "storm.dev",
+    "plugin"
+  ]
+}
